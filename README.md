@@ -5,7 +5,7 @@ A simple wrapper function for the SpeechSynthesis interface of the Javascript We
 
 ```
 
-function speakText(textToSpeak, lang='en-GB', volume=1, pitch=0.95, rate=1) {
+function speakText(textToSpeak, volume=1, pitch=0.95, rate=1, lang='en-GB') {
 
   const announcement = new SpeechSynthesisUtterance();
   announcement.pitch = pitch;
